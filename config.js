@@ -29,9 +29,9 @@ window.RANYBANG_CONFIG = {
     },
     {
       plataforma: "X",
-      usuario: "Ver publicación en X",
-      // Este enlace abre una publicación, NO la página principal del perfil.
-      url: "https://x.com/RanyBang/status/2118052298307801143",
+      usuario:  "@RanyBang",
+      // Enlace directo al perfil oficial de RanyBang.
+      url: "https://x.com/RanyBang",
       visible: true
     }
   ]
