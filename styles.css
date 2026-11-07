@@ -1,1 +1,106 @@
 :root{color-scheme:dark;--purple:#b75bff;--pink:#ff66e5;--white:#f9f2ff;--muted:#cdb8e1;--dark:#130520}*{box-sizing:border-box}html{min-height:100%;scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -15%,#6e1491 0%,#27063e 38%,#14051e 80%,#0b0313 100%);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--white);-webkit-font-smoothing:antialiased;overflow-x:hidden}a{color:inherit}.background{position:fixed;inset:0;pointer-events:none;overflow:hidden}.glow{position:absolute;filter:blur(85px);border-radius:50%;opacity:.34}.glow-a{width:440px;height:440px;background:#b52aff;top:-240px;left:-130px}.glow-b{width:350px;height:350px;background:#ef2ab2;bottom:-220px;right:-130px}.star{position:absolute;color:#ffaeff;text-shadow:0 0 25px #f672ff;font-size:28px}.star-1{top:11%;left:13%}.star-2{top:27%;right:10%}.star-3{top:63%;left:8%;font-size:15px}.star-4{bottom:13%;right:16%;font-size:17px}.container{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:44px 22px 26px}.eyebrow{width:max-content;max-width:100%;margin:0 auto 22px;padding:9px 15px;border:1px solid #b661db60;border-radius:100px;background:#ffffff0d;color:#edcbff;font-size:10px;font-weight:800;letter-spacing:.14em;text-align:center}.live-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#f781e3;margin-right:7px;box-shadow:0 0 12px #fb49ff}.hero{text-align:center}.logo{width:clamp(180px,58vw,266px);height:auto;aspect-ratio:1;border-radius:50%;object-fit:cover;box-shadow:0 0 0 5px #f1b4ff25,0 16px 70px #dd35e03b;display:block;margin:0 auto 23px}h1{font-weight:900;font-size:clamp(35px,9vw,47px);letter-spacing:-.05em;margin:0 0 7px;line-height:1.12;background:linear-gradient(95deg,#fff,#f2c5ff,#fff);color:transparent;background-clip:text;-webkit-background-clip:text}.subtitle{font-weight:700;color:#efb8ff;font-size:15px;margin:0 0 13px}.message{max-width:370px;margin:0 auto 31px;color:#decce9;line-height:1.65;font-size:14px}.section-heading{display:flex;align-items:center;justify-content:space-between;padding:0 3px;margin-bottom:13px}.section-heading h2{font-size:13px;text-transform:uppercase;letter-spacing:.15em;font-weight:900;margin:0;color:#e6c2ff}.section-heading span{color:#ba74e8;font-size:19px}.links{display:grid;gap:13px}.social-link{position:relative;display:flex;align-items:center;gap:15px;padding:16px 19px;min-height:80px;border:1px solid #d7a4ff40;background:linear-gradient(112deg,#ffffff15,#ffffff09);border-radius:19px;text-decoration:none;box-shadow:0 5px 20px #10022040;transition:transform .16s ease,border-color .16s ease,background .16s ease;backdrop-filter:blur(10px)}.social-link:hover,.social-link:focus-visible{transform:translateY(-2px);border-color:#ec8aff;background:#ffffff1c;outline:none}.social-link:focus-visible{box-shadow:0 0 0 3px #f389f2}.social-icon{display:grid;place-items:center;flex:0 0 48px;height:48px;border-radius:15px;background:#ffffff1b;color:#fff}.social-icon svg{width:25px;height:25px;fill:currentColor}.social-text{display:flex;flex-direction:column;gap:4px;min-width:0}.social-title{font-size:16px;font-weight:800}.social-username{font-size:12px;color:#cdb7dc;overflow-wrap:anywhere}.arrow{margin-left:auto;color:#ddb4f9;font-size:23px}.share-wrap{text-align:center;padding:28px 0 14px}.share-button{border:1px solid #d6a7ec69;border-radius:99px;padding:12px 22px;background:#ffffff0f;color:#f5ddff;cursor:pointer;font:700 13px inherit;font-size:13px}.share-button:hover{background:#ffffff1f}.notice{min-height:1.2em;font-size:12px;color:#e6c6fa}footer{padding:15px 0;text-align:center;font-size:12px;color:#bba7c8;border-top:1px solid #e6acff26}.footer-heart{color:#f775df;margin-right:6px}@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;scroll-behavior:auto!important}}@media(max-width:380px){.container{padding:32px 16px 20px}.eyebrow{font-size:9px}.social-link{padding:14px}}
+/* ===================================
+   RANYBANG GTO
+   Diseño optimizado para celulares
+   =================================== */
+
+@media screen and (max-width: 600px) {
+
+  /* Espaciado general */
+  .container {
+    width: 100%;
+    padding: 22px 18px 24px;
+  }
+
+  /* Etiqueta superior */
+  .eyebrow {
+    font-size: 9px;
+    margin-bottom: 16px;
+    padding: 8px 12px;
+  }
+
+  /* Logo completo y centrado */
+  .logo {
+    width: 170px;
+    height: 170px;
+    max-width: 55vw;
+    object-fit: contain;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+  }
+
+  /* Nombre de la fanbase */
+  h1 {
+    font-size: clamp(29px, 8vw, 38px);
+    line-height: 1.12;
+    margin-bottom: 6px;
+  }
+
+  /* Subtitulo */
+  .subtitle {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  /* Mensaje de bienvenida */
+  .message {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0 auto 22px;
+    max-width: 320px;
+  }
+
+  /* Encabezado de redes */
+  .section-heading {
+    margin-bottom: 11px;
+  }
+
+  .section-heading h2 {
+    font-size: 12px;
+  }
+
+  /* Separacion entre botones */
+  .links {
+    gap: 10px;
+  }
+
+  /* Botones mas compactos */
+  .social-link {
+    min-height: 65px;
+    padding: 11px 14px;
+    gap: 12px;
+    border-radius: 16px;
+  }
+
+  /* Iconos */
+  .social-icon {
+    flex: 0 0 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+
+  .social-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Nombres de las redes */
+  .social-title {
+    font-size: 15px;
+  }
+
+  .social-username {
+    font-size: 11px;
+  }
+
+  /* Flecha de cada boton */
+  .arrow {
+    font-size: 20px;
+  }
+
+  /* Boton para compartir */
+  .share-wrap {
+    padding: 20px 0 10px;
+  }
+
+}
