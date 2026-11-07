@@ -33,6 +33,12 @@ window.RANYBANG_CONFIG = {
       // Enlace directo al perfil oficial de RanyBang.
       url: "https://x.com/RanyBang",
       visible: true
+    },
+    {
+      plataforma: "WhatsApp",
+      usuario: "💜 Únete a nuestro grupo ARMY",
+      url: "https://chat.whatsapp.com/ICZoiP5OEAo47FQdIBrYL4",
+      visible: true
     }
   ]
 };
