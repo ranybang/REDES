@@ -1,0 +1,44 @@
+RANYBANG GTO — LANDING PAGE EDITABLE
+===================================
+
+CONTENIDO
+index.html        La página principal
+config.js         ARCHIVO QUE PUEDES EDITAR (nombre, textos, redes y enlaces)
+styles.css        Colores y diseño
+app.js            Funcionalidad de los botones
+assets/           Logo y favicon
+
+CÓMO REVISARLA
+Abre index.html en tu navegador. Para ver cambios, guarda config.js y actualiza la pestaña.
+
+CÓMO PUBLICAR GRATIS CON GITHUB PAGES (RECOMENDADO PARA EDITAR EN EL FUTURO)
+1. Crea o inicia sesión en https://github.com
+2. Crea un repositorio PUBLICO, por ejemplo: ranybang-redes
+3. Sube TODOS los archivos y la carpeta assets manteniendo la estructura.
+   En el repositorio, usa Add file > Upload files. Confirma con Commit changes.
+4. Ve a Settings > Pages; en Build and deployment selecciona Deploy from a branch.
+5. Selecciona la rama main y la carpeta /(root), y guarda.
+6. La dirección será similar a https://TU-USUARIO.github.io/ranybang-redes/
+   (Esta dirección es un EJEMPLO, no existe hasta que publiques).
+7. Verifica que los cuatro botones funcionen desde un teléfono.
+
+CÓMO EDITAR LA PÁGINA DESPUÉS
+1. Inicia sesión en la misma cuenta de GitHub.
+2. Abre el repositorio ranybang-redes > config.js.
+3. Pulsa el icono del lápiz (Edit this file).
+4. Cambia los textos, nombres de usuario o direcciones URL entre comillas.
+   Puedes añadir una red copiando un bloque de la lista 'redes'.
+5. Presiona Commit changes. La página pública se actualizará automáticamente.
+   No necesitas generar un QR nuevo mientras la URL pública siga siendo la misma.
+
+IMPORTANTE
+- El enlace de X proporcionado abre una PUBLICACION ESPECIFICA, no el perfil.
+  Sustitúyelo en config.js por el enlace del perfil cuando lo tengas.
+- Esta página no almacena datos de visitantes y no requiere contraseñas para los visitantes.
+- Cualquier persona puede ver el código público y los enlaces; no pongas información privada.
+- Conserva acceso a la cuenta de GitHub: de ella depende poder actualizar la página.
+- No borres ni cambies el nombre del repositorio después de imprimir el QR, pues la URL puede cambiar.
+
+ALTERNATIVA SIN GITHUB
+Puedes subir la carpeta a un hosting estático como Netlify Drop.
+Para editar allí, tendrás que volver a subir la versión actualizada o conectar un repositorio.
