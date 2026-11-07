@@ -104,3 +104,27 @@
   }
 
 }
+
+/* AJUSTE DEL LOGO RANYBANG */
+
+.logo {
+  width: 190px;
+  height: 190px;
+  max-width: 60vw;
+  object-fit: contain;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+  margin: 0 auto 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 180px;
+    height: 180px;
+    max-width: 60vw;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
