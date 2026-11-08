@@ -1,0 +1,14 @@
+<!-- BOTÓN DE ADMINISTRADORAS: PÉGALO ANTES DE <div class="share-wrap"> EN index.html -->
+<section class="ingreso-fanbase" aria-label="Conoce a nuestras administradoras">
+  <div class="section-heading"><h2>Nuestra coordinación 💜</h2><span>✦</span></div>
+  <div class="links">
+    <a class="social-link" href="administradoras.html">
+      <span class="social-icon" aria-hidden="true">👑</span>
+      <span class="social-text">
+        <span class="social-title">Conoce a nuestras administradoras</span>
+        <span class="social-username">Beth, Noemi, Melisa y Andy</span>
+      </span>
+      <span class="arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>

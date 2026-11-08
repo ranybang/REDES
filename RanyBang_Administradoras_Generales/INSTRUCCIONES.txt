@@ -1,0 +1,28 @@
+RANYBANG GTO — PÁGINA DE ADMINISTRADORAS GENERALES
+
+QUÉ CONTIENE ESTE ZIP:
+- administradoras.html: página lista para la web, con diseño adaptable a celular.
+- beth.webp / noemi.webp / melisa.webp / andy.webp: fotos optimizadas.
+- logo-ranybang.webp: logo optimizado.
+- BOTON_PARA_INDEX.html.txt: fragmento que agrega el botón a la página principal.
+
+PASO 1: SUBIR LOS 6 ARCHIVOS DE LA WEB
+1. Abre https://github.com/ranybang/REDES
+2. Add file > Upload files.
+3. Arrastra administradoras.html y las 5 imágenes .webp directamente a la raíz de REDES (junto a index.html).
+4. Pulsa Commit changes.
+5. Comprueba https://ranybang.github.io/REDES/administradoras.html
+
+PASO 2: ENLAZAR DESDE LA LANDING PAGE
+1. Abre index.html y haz clic en el lápiz (Edit).
+2. Busca <div class="share-wrap">.
+3. Justo ANTES de esa línea pega el contenido COMPLETO de BOTON_PARA_INDEX.html.txt,
+   SIN pegar el comentario inicial y SIN pegar estas instrucciones.
+4. Pulsa Commit changes.
+5. Revisa https://ranybang.github.io/REDES/
+
+NOTAS:
+- No cambies ni borres config.js, app.js, styles.css ni los botones existentes.
+- El QR sigue apuntando a la misma dirección.
+- Para reemplazar una foto, sube una nueva imagen con el mismo nombre (p. ej. beth.webp) y confirma el cambio.
+- Estas fotos serán públicas en internet: confirma que todas las administradoras aceptan su publicación.
