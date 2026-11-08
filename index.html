@@ -33,6 +33,66 @@
       <div class="section-heading"><h2 id="redes-titulo">Síguenos en redes</h2><span>↘</span></div>
       <div id="redes" class="links"></div>
     </section>
+    
+<!-- INGRESO A RANYBANG -->
+<section class="ingreso-fanbase">
+  <div class="section-heading">
+    <h2>Únete a RanyBang 💜</h2>
+    <span>✦</span>
+  </div>
+
+  <div class="links">
+    <a
+      class="social-link"
+      href="https://forms.gle/YBXGaqkg2ZYyh2Yw8"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span class="social-icon">📝</span>
+      <span class="social-text">
+        <span class="social-title">
+          Formulario de ingreso
+        </span>
+        <span class="social-username">
+          Regístrate para formar parte de RanyBang
+        </span>
+      </span>
+      <span class="arrow">↗</span>
+    </a>
+  </div>
+</section>
+```
+
+Como utiliza las clases visuales que tu página ya tiene, conservará el diseño morado de los botones.
+
+## Paso 2. Agregar una pequeña separación
+
+Abre:
+
+<Link url="https://github.com/ranybang/REDES/blob/main/styles.css" title="Editar styles.css"/>
+
+Al final del archivo, debajo de la última llave, pega:
+
+<CodeBlock language="css" editable>
+/* SECCION DE INGRESO RANYBANG */
+
+.ingreso-fanbase {
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+
+.ingreso-fanbase .social-link {
+  border-color: #ed9bff;
+  background: linear-gradient(
+    120deg,
+    #74349a,
+    #3d1759
+  );
+}
+
+.ingreso-fanbase .social-link:hover {
+  border-color: #ffffff;
+}
     <div class="share-wrap"><button id="compartir" class="share-button" type="button">♡ Compartir esta página</button><p id="aviso" class="notice" role="status" aria-live="polite"></p></div>
     <footer><span class="footer-heart">♥</span><span id="pie">Hecho con 💜 para la comunidad ARMY</span></footer>
   </main>
