@@ -38,7 +38,7 @@ window.RANYBANG_CONFIG = {
       plataforma: "WhatsApp",
       usuario: "💜 Únete a nuestro grupo ARMY",
       url: "https://chat.whatsapp.com/ICZoiP5OEAo47FQdIBrYL4",
-      visible: true
+      visible: false
     }
   ]
 };
